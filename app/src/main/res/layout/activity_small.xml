@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.selinashila.mathgame.PlayActivity">
+
+    <TextView
+        android:id="@+id/welcomView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Hello"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnOne"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/welcomView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:onClick="buttonOne"
+        android:background="@color/colorAccent"
+        android:textColor="#a4f442"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnOne"
+        android:layout_toStartOf="@+id/btnOne"
+        android:onClick="buttonTwo"
+        android:background="@color/colorAccent"
+        android:textColor="#a4f442"
+        android:textSize="20dp"
+        android:layout_toLeftOf="@+id/btnOne" />
+
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnOne"
+        android:layout_toEndOf="@+id/btnOne"
+        android:onClick="buttonThree"
+        android:background="@color/colorAccent"
+        android:textColor="#a4f442"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/btnOne" />
+
+    <Button
+        android:id="@+id/btnFour"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/btnOne"
+        android:layout_below="@+id/btnTwo"
+        android:onClick="buttonFour"
+        android:background="@color/colorAccent"
+        android:textColor="#a4f442"
+        android:textSize="20dp"
+        android:layout_alignLeft="@+id/btnOne" />
+
+    <TextView
+        android:id="@+id/pointView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnFour"
+        android:layout_below="@+id/btnFour"
+        android:layout_marginTop="36dp"
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/btnFour" />
+
+</RelativeLayout>

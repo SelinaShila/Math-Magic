@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SpotBig</string>
+
+    <string name="game_hint">
+        1.	Insert your name or whatever you want.\n\n
+        2.	Click “PLAY” to go to next.\n\n
+        3.	There are four button with different value but choose only the maximum value button.\n\n
+        4.	If you click the right value, you will get 1 point.\n\n
+        5.	If you are wrong, you’ll loose 1 point.\n\n
+            Enjoy
+    </string>
+</resources>
